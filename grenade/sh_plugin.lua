@@ -3,7 +3,7 @@ local grenadecommand = {
     requiresArg = false,
     requiresAlive = true,
     onRun = function(ply)
-        if not ( ply:Team() == TEAM_TA) then return
+        if not ( ply:Team() == TEAM_OTA) then return
             ply:Notify("You must be a Soldier to use this command.")
         end
 
